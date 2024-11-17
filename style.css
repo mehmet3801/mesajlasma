@@ -1,0 +1,81 @@
+.container {
+    max-width: 700px; /* Mesaj kutusu için genişliği artırdık */
+    margin: 20px auto; /* Üstte boşluk bıraktık */
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(248, 0, 0, 0.1);
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+h3 {
+    text-align: center;
+    color: #333;
+}
+
+.message-box {
+    max-height: 300px; /* Mesaj kutusunun yüksekliğini sınırladık */
+    overflow-y: auto; /* Aşırı mesajları kaydırma çubuğu ile göster */
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    overflow-y: auto; /* Taşan mesajları kaydırarak gösterir */
+}
+
+.message {
+    margin-bottom: 10px; /* Mesajlar arasına boşluk bırak */
+    padding: 10px;
+    margin: 5px 0; /* Mesajlar arasında boşluk */
+    border-bottom: 1px solid #ccc; /* İnce çizgi */
+}
+.message:last-child {
+    border-bottom: none; /* Son mesaj için çizgi yok */
+}
+strong {
+    display: inline-block; /* Eşit hizalama için */
+    width: 100px; /* Gönderenin ismi için genişlik ayarı */
+}
+.message strong {
+    color: #00100b; /* Kullanıcı adlarının rengini ayarladık */
+}
+
+.message em {
+    font-size: 0.8em; /* Zaman damgasının boyutunu küçülttük */
+    color: #999; /* Zaman damgası için gri bir renk */
+}
+option{
+    color: #ffffff;
+    background-color: gray;
+}
+textarea{
+    width: 700px;
+    top: 30px;
+    background-color: rgb(198, 198, 198);
+    font-size: large;
+}
+p button{
+     
+    width: 300px;
+    padding: 10px;
+    margin:0 auto 0 auto;
+    text-align: center;
+    background-color: #0056b3; /* Buton rengi */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    justify-content: center;
+    display: flex;
+}
+    
+button:hover {
+    background-color: #08ff5f; /* Hover durumu için daha koyu mavi */
+}
